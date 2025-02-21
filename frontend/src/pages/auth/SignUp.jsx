@@ -9,7 +9,7 @@ const SignUp = () => {
   const hangdlesubmit=async(e)=>{
     e.preventDefault();
     try {
-      const response = await axios.post(`https://moviezone-q639.onrender.com/api/v1/register`, {
+      const response = await axios.post(`https://moviezone-ku05.onrender.com/api/v1/register`, {
         name: name,
         email: email,
         password: password,
